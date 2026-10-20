@@ -21,7 +21,7 @@ by cell using the '# %%' markers), or top to bottom as a single script.
 # 2. Install required packages/dependencies
 #    pip install -r requirements.txt
 #
-# ============================================================================
+# ============================================================================ 
 
 # Step 1: Set up your path
 
@@ -33,7 +33,7 @@ because automatic detection (e.g., via __file__) only works when running
 this file as a whole script -- it breaks when running cell-by-cell in an
 interactive console or notebook, which is a common way to work through a lab.
 '''
-LAB_FOLDER = r"\Users\ncachanosky\OneDrive\Research\GitHub\ECON-5371-lab\lab_2"
+LAB_FOLDER = r"C:\Users\lucia\OneDrive\Documents\GitHub\-ECON-5371-lab\Lab 2"
 
 import os
 
