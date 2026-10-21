@@ -33,7 +33,7 @@ by cell using the '# %%' markers), or top to bottom as a single script.
 # ============================================================================
 
 # Set the lab folder location.
-LAB_FOLDER = r"\Users\ncachanosky\OneDrive\Research\GitHub\ECON-5371-lab\lab_4"
+LAB_FOLDER = r"C:\Users\lucia\OneDrive\Documents\GitHub\-ECON-5371-lab"
 
 import os
 
@@ -67,7 +67,7 @@ script_start = time.time()
 
 # %% 1. Load and Visualize the Data
 
-df = pd.read_csv("macro_var_synthetic.csv", parse_dates=["date"])
+df = pd.read_csv("Lab 4/macro_var_synthetic.csv", parse_dates=["date"])
 df = df.set_index("date")
 df.index.freq = "QS"
 
